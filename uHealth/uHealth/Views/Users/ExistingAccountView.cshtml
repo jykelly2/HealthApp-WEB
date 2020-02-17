@@ -1,0 +1,55 @@
+﻿
+@model uHealth.Models.User
+
+@{
+    ViewData["Title"] = "ExistingAccountView";
+    Layout = "_Layout";
+}
+
+
+<head>
+    <link rel="stylesheet" href="~/css/UserForm.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<div class="container register" style="height:820px">
+
+    <h1 class="title" style="margin-bottom:70px">Submit Your Information</h1>
+    <form method="post" asp-action="EditExisting" class="needs-validation" novalidate>
+        <input  type="hidden" asp-for="Id" />
+        <div class="row">
+            <div class="col-md-3 register-left">
+                <img src="~/images/MyLogo_light.png" alt="" />
+                <h3>Join Us</h3>
+                <p>Register your information and we will give you a feedback! </p>
+            </div>
+            <div class="col-md-9 register-right">
+                <div class="row register-form">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Email">Email:</label>
+                            <input class="form-control mb-3" type="Email" placeholder="Email" asp-for="Email" required />
+                            <div class="invalid-feedback">
+                                Please enter valid email
+                            </div>
+
+                            <div>
+                        
+                                <button type="submit" class="btn btn-primary float-right"> View and Edit</button>
+                            </div>
+                            
+
+                            
+                        </div>
+                </div>
+            </div>
+</div>
+        </div>
+    </form>
+</div>
+
+<script src="~/js/UserFormValidation.js"></script>
+
+
+

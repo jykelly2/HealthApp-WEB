@@ -1,0 +1,85 @@
+﻿@using uHealth.Models
+@model uHealth.Models.User
+@{
+    ViewData["Title"] = "ConfirmationView";
+    Layout = "_Layout";
+}
+
+
+
+
+<head>
+    <link rel="stylesheet" href="~/css/UserForm.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<div class="container register">
+    <h1 class="title">confirm Your Information!</h1>
+    <div class="row">
+        <div class="col-md-3 register-left">
+            <img src="~/images/MyLogo_light.png" alt="" />
+            <h3>Join Us</h3>
+            <p>Register your information and we will give you a feedback! </p>
+        </div>
+        <div class="col-md-9 register-right">
+
+
+            <div class="row register-form">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="text-primary font-weight-bold">First Name:</label>
+                        <p>@Model.FirstName</p>
+                    </div>
+                    <div class="form-group">
+                        <label class="text-primary font-weight-bold">Last Name:</label>
+                        <p>@Model.LastName</p>
+
+                    </div>
+                    <div class="form-group">
+                        <label class="text-primary font-weight-bold">Age:</label>
+                        <p>@Model.Age</p>
+                    </div>
+                    <div class="form-group">
+                        <label class="text-primary font-weight-bold">Email:</label>
+                        <p>@Model.Email</p>
+                    </div>
+                    <div class="form-group">
+                        <label class="text-primary font-weight-bold">Gender:</label>
+                        <p>@Model.Gender</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="text-primary font-weight-bold">Height (Cm):</label>
+                        <p>@Model.Height</p>
+
+                    </div>
+                    <div class="form-group">
+                        <label class="text-primary font-weight-bold">Weight (Kg):</label>
+                        <p>@Model.Weight</p>
+                    </div>
+                    <div class="form-group">
+                        <label class="text-primary font-weight-bold">Health Focus:</label>
+                        <p>@Model.HealthFocus</p>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label class="text-primary font-weight-bold">Interest Level:</label>
+                        <p>@Model.InterestLevel</p>
+                    </div>
+                    <div>
+                        <a class="btn btn-primary float-left px-md-5 mr-3 mb-3" href="\Users\Edit\@Model.Id">Edit</a>
+                        <a class="btn btn-primary" href="\Users\Submit\@Model.Id">Submit</a>
+                    </div>
+                    <a class="btn btn-primary  px-md-5 mr-3 mt-2" href="\Users\Delete\@Model.Id">Delete</a>
+                    
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+

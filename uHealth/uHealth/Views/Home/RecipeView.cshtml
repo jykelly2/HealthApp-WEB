@@ -1,0 +1,70 @@
+﻿@model IEnumerable<uHealth.Models.Recipe>
+
+
+@{
+    ViewData["Title"] = "RecipeView";
+    Layout = "_Layout";
+
+}
+
+
+
+<div class="bg-light">
+
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-3">Looking for healthy food?</h1>
+            <p>Search our large recipe database. We add new sites and recipes continuously. <br>You will also get access to over 1.5 million recipes.</p>
+            <p><a asp-controller="Home" asp-action="SearchRecipe" class="btn btn-primary btn-lg" role="button">Search recipes</a></p>
+        </div>
+    </div>
+
+    <main role="main">
+
+        <div class="album py-5 ">
+            <div class="container">
+
+                <div class="row" id="recipes">
+
+
+                    @foreach (var obj in Model)
+                    {
+
+                        <div class="col-md-4">
+                            <div class="card mb-4 shadow-sm">
+                                <img id="hell_llo" class="card-img-top" src="@obj.Image" />
+                                <div class="card-body">
+                                    <h3>@obj.Label</h3>
+                                    <p class="card-text">@obj.Ingrediants</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+
+                                            <form asp-action="FavouriteForRecipe" method="post">
+                                                <input type="hidden" id="label" name="label" value="@obj.Label" />
+                                                <input type="hidden" id="image" name="image" value="@obj.Image" />
+                                                <input type="hidden" id="ingrediants" name="ingrediants" value="@obj.Ingrediants" />
+                                                <input type="hidden" id="source" name="source" value="@obj.Source" />
+
+                                                <button type="submit" class="btn btn-sm btn-outline-secondary">Favourite</button>
+                                            </form>
+
+                                        </div>
+                                        <small class="text-muted">Provided By @obj.Source</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+</div>
+
+
+@*<script src="~/js/Recipe.js"></script>*@

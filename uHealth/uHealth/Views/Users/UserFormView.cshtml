@@ -1,0 +1,114 @@
+﻿
+@model uHealth.Models.User
+
+@{
+    ViewData["Title"] = "UserFormView";
+    Layout = "_Layout";
+}
+
+
+<head>
+    <link rel="stylesheet" href="~/css/UserForm.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<div class="container register">
+
+    <h1 class="title">Submit Your Information</h1>
+    <form method="post" asp-action="Save" class="needs-validation" novalidate>
+        <input type="hidden" asp-for="Id" />
+        <div class="row">
+            <div class="col-md-3 register-left">
+                <img src="~/images/MyLogo_light.png" alt="" />
+                <h3>Join Us</h3>
+                <p>Register your information and we will give you a feedback! </p>
+            </div>
+            <div class="col-md-9 register-right">
+                <div class="row register-form">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="FirstName">First Name:</label>
+                            <input type="text" asp-for="FirstName" class="form-control" placeholder="First Name" required />
+                            <div class="invalid-feedback">
+                                Please enter First name
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="LastName">Last Name:</label>
+                            <input type="text" asp-for="LastName" class="form-control" placeholder="Last Name" required />
+                            <div class="invalid-feedback">
+                                Please enter Last name
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Age">Age:</label>
+                            <input class="form-control" asp-for="Age" placeholder="Age" type="number" min="1" required />
+                            <div class="invalid-feedback">
+                                Please enter Age greater than 1
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Email">Email:</label>
+                            <input class="form-control" type="Email" placeholder="Email" asp-for="Email" required />
+                            <div class="invalid-feedback">
+                                Please enter valid email
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="maxl">
+                                <label class="radio inline" asp-for="Gender">
+                                    <input type="radio" asp-for="Gender" value="male" checked>
+                                    <span> Male </span>
+                                </label>
+                                <label class="radio inline" asp-for="Gender">
+                                    <input type="radio" asp-for="Gender" value="female">
+                                    <span>Female </span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Height">Height (Cm):</label>
+                            <input class="form-control" asp-for="Height" placeholder="Height" type="number" min="50" max="250"required />
+                            <div class="invalid-feedback">
+                                Please enter height between 50-250 Cm
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Weight">Weight (Kg):</label>
+                            <input class="form-control" asp-for="Weight" placeholder="Weight" type="number" min="10" max="200" required />
+                            <div class="invalid-feedback">
+                                Please enter weight between 10-200 Kg
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="HealthFocus">Choose Health Focus:</label>
+                            <select class="form-control" asp-for="HealthFocus">
+                                <option selected="selected" value="Nutrition">Nutrition</option>
+                                <option value="Fitness">Fitness</option>
+                                <option value="General">General Health</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="InterestLevel">Choose Interest Level:</label>
+                            <select class="form-control" asp-for="InterestLevel">
+                                <option selected="selected" value="Considerably">Considerably</option>
+                                <option value="Neutral">Neutral</option>
+                                <option value="Slightly">Slightly</option>
+                                <option value="Not Interested">Not Interested</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary float-right"> Register</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</div>
+
+<script src="~/js/UserFormValidation.js"></script>
+
