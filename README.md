@@ -1,29 +1,10 @@
-# Health App Manual 
+# Health App  
+Health App is an all in one health platform where user can explore and discover health related informations such as healthy recipes and health related news. A user can also create an account with their general information and their physical information, and in return Health App would calculate the user's BMI and email the result as well as a recommended health website depending on user's input and their Health Focus and Interest Level. 
 ***
 
 ### Tools/Launguages:
 
 * C#, JavaScript, HTML, CSS, Bootstrap, External API, SQL Server, Entity Framework
-
-### External API Used in App
-1. https://api.edamam.com/search?app_id=3a146f47&app_key=9ca8209de9cd6352ef0d03bad10ecfc8&q=chicken&from=5&to=11&ingr=5
-2. https://newsapi.org/v2/top-headlines?country=ca&category=health&apiKey=8c99b77c80da4c1fb30f2b6904623c16
-
-### User database 
-<div>
-<img src="https://github.com/jykelly2/HealthApp/blob/master/pic12.PNG" height="450" width="700"alt="The Sign in page">
-<div>
-
-### Mobile Responsiveness
-
-<div>
-<img src="https://github.com/jykelly2/HealthApp/blob/master/pic15.PNG" height="600" width="1000"alt="The Sign in page">
-<div>
-
-<div>
-<img src="https://github.com/jykelly2/HealthApp/blob/master/pic16.PNG" height="600" width="1000"alt="The Sign in page">
-<div>
-***
 
 # App Navigation
 
@@ -75,13 +56,6 @@
 
 <br>
 
-### _Actual Website of Selected News_
-
-<div>
-<img src="https://github.com/jykelly2/HealthApp/blob/master/pic11-2.PNG" height="600" width="700"alt="The Sign in page">
-<div>
-
-***
 
 ### Create Account Page
 
@@ -121,19 +95,17 @@
 
 ***
 
-### Account Page
 
-* User can input their email to view existing account information and to edit account (Navigate to edit page)
-* Checks if the email matches user record in the database and if not, it will ask user to enter another email or create account
-
-<div>
-<img src="https://github.com/jykelly2/HealthApp/blob/master/pic9.png" height="550" width="700"alt="The Sign in page">
-<div>
-
-### _Edit Page_
+ 
+ ### Mobile Responsiveness
 
 <div>
-<img src="https://github.com/jykelly2/HealthApp/blob/master/pic10.png" height="550" width="700"alt="The Sign in page">
+<img src="https://github.com/jykelly2/HealthApp/blob/master/pic15.PNG" height="600" width="1000"alt="The Sign in page">
 <div>
+
+<div>
+<img src="https://github.com/jykelly2/HealthApp/blob/master/pic16.PNG" height="600" width="1000"alt="The Sign in page">
+<div>
+***
 
 
