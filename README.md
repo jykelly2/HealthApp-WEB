@@ -1,7 +1,7 @@
 # Health App  
-Health App is an all in one health platform where user can explore and discover health related informations such as healthy recipes and health related news. These health related informations are extracted from using external APIs and is used to create associated objects from extracted JSON data. 
+Health App is an all-in-one health platform where users can explore and discover health-related information such as healthy recipes and health-related news. This health-related information is extracted from using external APIs and is used to create associated objects from extracted JSON data. 
 
-A user can also create an account with their general information and their physical information, and in return Health App would calculate the user's BMI and email the result as well as a recommended health website depending on user's input and their Health Focus and Interest Level. 
+A user can also create an account with their general information and their physical information, and in return, Health App would calculate the user's BMI and email the result as well as a recommended health website depending on the user's input and their Health Focus and Interest Level. 
 
 Health App is also a **responsive web app** that changes its layouts according to screen size and it works in all screen types.
 
@@ -25,8 +25,8 @@ Health App is also a **responsive web app** that changes its layouts according t
 ### Recipe Page
 
 * Lists latest menu recipes (Image, Title, Description, Author) extracted from external API
-* List changes everytime latest menu is updated on the API 
-* Allows user to search recipes by keyword 
+* List changes every time the latest menu is updated on the API 
+* Allows the user to search recipes by keyword 
  
 <div>
 <img src="https://github.com/jykelly2/HealthApp-WEB/blob/master/uHealth%20Github%20Images/pic2.png" height="700" width="700"alt="The Sign in page">
@@ -45,8 +45,8 @@ Health App is also a **responsive web app** that changes its layouts according t
 ### News Page
 
 * Lists latest news (Image, Date, Title, Description, Source) extracted from external API
-* List changes everytime latest news is updated on the API 
-* Clicking on the news would take user to the actual website of the news 
+* List changes every time the latest news is updated on the API 
+* Clicking on the news would take the user to the actual website of the news 
 
 <div>
 <img src="https://github.com/jykelly2/HealthApp-WEB/blob/master/uHealth%20Github%20Images/pic4.png" height="700" width="700"alt="The Sign in page">
@@ -57,8 +57,8 @@ Health App is also a **responsive web app** that changes its layouts according t
 
 ### Create Account Page
 
-* Enter all the health and information fields to create new account
-* Has validation check for every field and also validates if user account exists in dtabase by email to avoid duplicate accounts
+* Enter all the health and information fields to create a new account
+* Has validation check for every field and also validates if the user account exists in the database by email to avoid duplicate accounts
 
 <div>
 <img src="https://github.com/jykelly2/HealthApp-WEB/blob/master/uHealth%20Github%20Images/pic5.png" height="550" width="700"alt="The Sign in page">
@@ -69,8 +69,8 @@ Health App is also a **responsive web app** that changes its layouts according t
 ### Confirmation Page
 
 * Populates all the inputted fields 
-* Gives user option to edit information which navigates user to edit page with fields populated to edit account
-* Delete account to delete account from user database
+* Gives user option to edit information which navigates the user to edit page with fields populated to edit account
+* Delete account to delete account from the user database
 * Submit information would send an email to user's email about their BMI and recommended health website depending on user's input on Health Focus and Interest Level
 
 <div>
