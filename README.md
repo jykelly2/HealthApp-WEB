@@ -97,12 +97,12 @@ Health App is also a **responsive web app** that changes its layouts according t
  ### Mobile Responsiveness
 
 <div>
-<img src="https://github.com/jykelly2/HealthApp-WEB/blob/master/uHealth%20Github%20Images/pic15.png" height="600" width="1000"alt="The Sign in page">
+<img src="https://github.com/jykelly2/HealthApp-WEB/blob/master/uHealth%20Github%20Images/pic15.PNG" height="600" width="1000"alt="The Sign in page">
 <div>
 
 <div>
-<img src="https://github.com/jykelly2/HealthApp-WEB/blob/master/uHealth%20Github%20Images/pic16.png" height="600" width="1000"alt="The Sign in page">
+<img src="https://github.com/jykelly2/HealthApp-WEB/blob/master/uHealth%20Github%20Images/pic16.PNG" height="600" width="1000"alt="The Sign in page">
 <div>
-***
+
 
 
