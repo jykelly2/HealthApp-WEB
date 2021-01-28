@@ -17,7 +17,7 @@ Health App is also a **responsive web app** that changes its layouts according t
 * User can navigate to different pages through navigation menu or through clicking each card/box links
 
 <div>
-<img src="https://github.com/jykelly2/HealthApp/blob/master/pic1.png" height="700" width="700"alt="The Sign in page">
+<img src="https://github.com/jykelly2/HealthApp-WEB/blob/master/uHealth%20Github%20Images/pic1.png" height="700" width="700"alt="The Sign in page">
 <div>
 
 ***
@@ -29,7 +29,7 @@ Health App is also a **responsive web app** that changes its layouts according t
 * Allows user to search recipes by keyword 
  
 <div>
-<img src="https://github.com/jykelly2/HealthApp/blob/master/pic2.png" height="700" width="700"alt="The Sign in page">
+<img src="https://github.com/jykelly2/HealthApp-WEB/blob/master/uHealth%20Github%20Images/pic2.png" height="700" width="700"alt="The Sign in page">
 <div>
 
 <br>
@@ -37,7 +37,7 @@ Health App is also a **responsive web app** that changes its layouts according t
 ### _Search Recipe Feature_
 
 <div>
-<img src="https://github.com/jykelly2/HealthApp/blob/master/pic3.png" height="700" width="700"alt="The Sign in page">
+<img src="https://github.com/jykelly2/HealthApp-WEB/blob/master/uHealth%20Github%20Images/pic3.png" height="700" width="700"alt="The Sign in page">
 <div>
 
 ***
@@ -49,7 +49,7 @@ Health App is also a **responsive web app** that changes its layouts according t
 * Clicking on the news would take user to the actual website of the news 
 
 <div>
-<img src="https://github.com/jykelly2/HealthApp/blob/master/pic4.png" height="700" width="700"alt="The Sign in page">
+<img src="https://github.com/jykelly2/HealthApp-WEB/blob/master/uHealth%20Github%20Images/pic4.png" height="700" width="700"alt="The Sign in page">
 <div>
 
 <br>
@@ -61,7 +61,7 @@ Health App is also a **responsive web app** that changes its layouts according t
 * Has validation check for every field and also validates if user account exists in dtabase by email to avoid duplicate accounts
 
 <div>
-<img src="https://github.com/jykelly2/HealthApp/blob/master/pic5.png" height="550" width="700"alt="The Sign in page">
+<img src="https://github.com/jykelly2/HealthApp-WEB/blob/master/uHealth%20Github%20Images/pic5.png" height="550" width="700"alt="The Sign in page">
 <div>
 
 ***
@@ -74,19 +74,19 @@ Health App is also a **responsive web app** that changes its layouts according t
 * Submit information would send an email to user's email about their BMI and recommended health website depending on user's input on Health Focus and Interest Level
 
 <div>
-<img src="https://github.com/jykelly2/HealthApp/blob/master/pic6.png" height="550" width="700"alt="The Sign in page">
+<img src="https://github.com/jykelly2/HealthApp-WEB/blob/master/uHealth%20Github%20Images/pic6.png" height="550" width="700"alt="The Sign in page">
 <div>
 
 ### _User's email_
 
 <div>
-<img src="https://github.com/jykelly2/HealthApp/blob/master/pic7.png" height="550" width="700"alt="The Sign in page">
+<img src="https://github.com/jykelly2/HealthApp-WEB/blob/master/uHealth%20Github%20Images/pic7.png" height="550" width="700"alt="The Sign in page">
 <div>
 
 ### _Email sent from uHealth(My App)_
 
 <div>
-<img src="https://github.com/jykelly2/HealthApp/blob/master/pic8.png" height="550" width="700"alt="The Sign in page">
+<img src="https://github.com/jykelly2/HealthApp-WEB/blob/master/uHealth%20Github%20Images/pic8.png" height="550" width="700"alt="The Sign in page">
 <div>
 
 
@@ -97,11 +97,11 @@ Health App is also a **responsive web app** that changes its layouts according t
  ### Mobile Responsiveness
 
 <div>
-<img src="https://github.com/jykelly2/HealthApp/blob/master/pic15.PNG" height="600" width="1000"alt="The Sign in page">
+<img src="https://github.com/jykelly2/HealthApp-WEB/blob/master/uHealth%20Github%20Images/pic15.png" height="600" width="1000"alt="The Sign in page">
 <div>
 
 <div>
-<img src="https://github.com/jykelly2/HealthApp/blob/master/pic16.PNG" height="600" width="1000"alt="The Sign in page">
+<img src="https://github.com/jykelly2/HealthApp-WEB/blob/master/uHealth%20Github%20Images/pic16.png" height="600" width="1000"alt="The Sign in page">
 <div>
 ***
 
