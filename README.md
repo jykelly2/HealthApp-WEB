@@ -3,6 +3,7 @@ Health App is an all in one health platform where user can explore and discover 
 
 A user can also create an account with their general information and their physical information, and in return Health App would calculate the user's BMI and email the result as well as a recommended health website depending on user's input and their Health Focus and Interest Level. 
 
+Health App is also a **responsive web app** that changes its layouts according to screen size and it works in all screen types.
 
 ### Tools/Launguages:
 
