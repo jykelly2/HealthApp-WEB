@@ -1,20 +1,19 @@
 # Health App  
-Health App is an all in one health platform where user can explore and discover health related informations such as healthy recipes and health related news. A user can also create an account with their general information and their physical information, and in return Health App would calculate the user's BMI and email the result as well as a recommended health website depending on user's input and their Health Focus and Interest Level. 
-***
+Health App is an all in one health platform where user can explore and discover health related informations such as healthy recipes and health related news. These health related informations are extracted from using external APIs and is used to create associated objects from extracted JSON data. 
+
+A user can also create an account with their general information and their physical information, and in return Health App would calculate the user's BMI and email the result as well as a recommended health website depending on user's input and their Health Focus and Interest Level. 
+
 
 ### Tools/Launguages:
 
 * C#, JavaScript, HTML, CSS, Bootstrap, External API, SQL Server, Entity Framework
 
-# App Navigation
-
-***
-
+## App Navigation
 
 ### Home Page
--	Describes general website features 
+*	Describes general website features 
 
--	User can navigate to different pages through navigation menu or through clicking each card/box links
+* User can navigate to different pages through navigation menu or through clicking each card/box links
 
 <div>
 <img src="https://github.com/jykelly2/HealthApp/blob/master/pic1.png" height="700" width="700"alt="The Sign in page">
@@ -35,8 +34,6 @@ Health App is an all in one health platform where user can explore and discover 
 <br>
 
 ### _Search Recipe Feature_
-
-
 
 <div>
 <img src="https://github.com/jykelly2/HealthApp/blob/master/pic3.png" height="700" width="700"alt="The Sign in page">
@@ -74,7 +71,6 @@ Health App is an all in one health platform where user can explore and discover 
 * Gives user option to edit information which navigates user to edit page with fields populated to edit account
 * Delete account to delete account from user database
 * Submit information would send an email to user's email about their BMI and recommended health website depending on user's input on Health Focus and Interest Level
-
 
 <div>
 <img src="https://github.com/jykelly2/HealthApp/blob/master/pic6.png" height="550" width="700"alt="The Sign in page">
