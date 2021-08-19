@@ -5,7 +5,7 @@ A user can also create an account with their general information and their physi
 
 Health App is also a **responsive web app** that changes its layouts according to screen size and it works in all screen types.
 
-### Tools/Languages:
+#### Tools/Languages:
 
 * C#, JavaScript, HTML, CSS, Bootstrap, External API, SQL Server, Entity Framework
 
